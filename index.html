@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfólio de João Pedro Santana — estudante técnico em Redes e Arquitetura de Computadores, com experiência em suporte técnico e projetos de desenvolvimento."
+    >
+
+    <meta name="author" content="João Pedro Santana">
+
+    <meta name="theme-color" content="#07080c">
+
+    <title>JP//SYSTEM — João Pedro Santana</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="dark">
+
+    <!-- =========================================================
+         SYSTEM OVERLAY
+    ========================================================== -->
+
+    <div class="system-overlay" aria-hidden="true">
+
+        <div class="system-grid"></div>
+
+        <div class="system-axis system-axis-x"></div>
+        <div class="system-axis system-axis-y"></div>
+
+        <div class="system-marker marker-a">
+            01
+        </div>
+
+        <div class="system-marker marker-b">
+            JP
+        </div>
+
+        <div class="system-marker marker-c">
+            BH/MG
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         TOP BAR
+    ========================================================== -->
+
+    <header class="topbar">
+
+        <a
+            href="#home"
+            class="system-logo"
+            aria-label="Voltar ao início" data-i18n-aria="back_home"
+        >
+            <span class="system-logo-main">
+                JP//
+            </span>
+
+            <span class="system-logo-sub">
+                SYSTEM.01
+            </span>
+        </a>
+
+
+        <div class="topbar-status">
+
+            <span class="status-light"></span>
+
+            <span>
+                PORTFOLIO ONLINE
+            </span>
+
+        </div>
+
+
+        <nav class="topbar-nav">
+
+            <a href="#about">
+                INDEX
+            </a>
+
+            <a href="#experience">
+                EXPERIENCE
+            </a>
+
+            <a href="#work">
+                WORK
+            </a>
+
+            <a href="#stack">
+                STACK
+            </a>
+
+            <a href="#contact">
+                CONTACT
+            </a>
+
+        </nav>
+
+
+        <div class="topbar-actions">
+
+            <div class="language-switch" id="languageSwitch" aria-label="Selecionar idioma">
+                <span class="language-label">LANG</span>
+
+                <button
+                    type="button"
+                    class="language-option active"
+                    data-lang="pt"
+                    aria-pressed="true"
+                >
+                    PT
+                </button>
+
+                <span class="language-divider">/</span>
+
+                <button
+                    type="button"
+                    class="language-option"
+                    data-lang="en"
+                    aria-pressed="false"
+                >
+                    EN
+                </button>
+            </div>
+
+            <button
+                class="theme-switch"
+                id="themeSwitch"
+                type="button"
+                aria-label="Alternar tema" data-i18n-aria="toggle_theme"
+            >
+
+                <span class="theme-switch-label">
+                    MODE
+                </span>
+
+                <span class="theme-switch-state">
+                    DARK
+                </span>
+
+                <span class="theme-switch-indicator"></span>
+
+            </button>
+
+
+            <a
+                href="assets/documents/Curriculo_Joao_Pedro.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cv-file"
+            >
+                [ CV.PDF ↗ ]
+            </a>
+
+        </div>
+
+
+        <button
+            class="mobile-trigger"
+            id="mobileTrigger"
+            type="button"
+            aria-label="Abrir menu" data-i18n-aria="open_menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =========================================================
+         MOBILE PANEL
+    ========================================================== -->
+
+    <aside
+        class="mobile-panel"
+        id="mobilePanel"
+        aria-hidden="true"
+    >
+
+        <div class="mobile-panel-head">
+
+            <span>
+                JP//NAV
+            </span>
+
+            <button
+                id="mobileClose"
+                type="button"
+                aria-label="Fechar menu" data-i18n-aria="close_menu"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <nav class="mobile-panel-nav">
+
+            <a href="#about">
+                01 / INDEX
+            </a>
+
+            <a href="#experience">
+                02 / EXPERIENCE
+            </a>
+
+            <a href="#work">
+                03 / WORK
+            </a>
+
+            <a href="#stack">
+                04 / STACK
+            </a>
+
+            <a href="#contact">
+                05 / CONTACT
+            </a>
+
+            <a
+                href="assets/documents/Curriculo_Joao_Pedro.pdf"
+                target="_blank"
+            >
+                CV.PDF ↗
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- =========================================================
+         MAIN
+    ========================================================== -->
+
+    <main>
+
+
+        <!-- =====================================================
+             HERO / HOME
+        ====================================================== -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-left">
+
+                <div class="hero-system-line">
+
+                    <span>
+                        USER / JOÃO PEDRO SANTANA
+                    </span>
+
+                    <span>
+                        BH — BR
+                    </span>
+
+                </div>
+
+
+                <div class="hero-title">
+
+                    <div class="hero-title-line hero-title-line-one">
+
+                        <span class="hero-index">
+                            01
+                        </span>
+
+                        <h1>
+                            JOÃO
+                        </h1>
+
+                    </div>
+
+
+                    <div class="hero-title-line hero-title-line-two">
+
+                        <h1>
+                            PEDRO
+                        </h1>
+
+                        <span class="hero-title-code">
+                            TECH.SYS
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-title-line hero-title-line-three">
+
+                        <span class="hero-title-symbol">
+                            //
+                        </span>
+
+                        <h1>
+                            SANTANA
+                        </h1>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-intro">
+
+                    <p data-i18n="hero_description">
+                        Estudante técnico em Redes e Arquitetura de Computadores,
+                        com experiência em suporte técnico corporativo e projetos
+                        de desenvolvimento.
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#work"
+                            class="system-button system-button-primary"
+                        >
+                            <span>
+                                OPEN WORK
+                            </span>
+
+                            <span>
+                                ↓
+                            </span>
+                        </a>
+
+
+                        <a
+                            href="assets/documents/Curriculo_Joao_Pedro.pdf"
+                            target="_blank"
+                            class="system-button"
+                        >
+                            <span>
+                                CV.PDF
+                            </span>
+
+                            <span>
+                                ↗
+                            </span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-right">
+
+                <div class="hero-photo-module">
+
+                    <div class="photo-module-top">
+
+                        <span>
+                            VISUAL_ID.01
+                        </span>
+
+                        <span>
+                            JP/2026
+                        </span>
+
+                    </div>
+
+
+                    <div class="photo-module-body">
+
+                        <!--
+                            SUA FOTO
+
+                            assets/images/perfil.jpg
+                        -->
+
+                        <img
+                            src="assets/images/perfil.jpeg"
+                            alt="João Pedro Santana"
+                            class="hero-photo"
+                        >
+
+
+                        <div class="photo-crosshair crosshair-top-left"></div>
+                        <div class="photo-crosshair crosshair-top-right"></div>
+                        <div class="photo-crosshair crosshair-bottom-left"></div>
+                        <div class="photo-crosshair crosshair-bottom-right"></div>
+
+
+                        <div class="photo-readout">
+
+                            <span>
+                                SUBJECT
+                            </span>
+
+                            <strong>
+                                JP
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="photo-module-bottom">
+
+                        <div>
+
+                            <span>
+                                LOCATION
+                            </span>
+
+                            <strong>
+                                BELO HORIZONTE
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                STATUS
+                            </span>
+
+                            <strong>
+                                AVAILABLE
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-side-data">
+
+                    <div class="data-block">
+
+                        <span>
+                            CURRENT
+                        </span>
+
+                        <strong>
+                            COTEMIG
+                        </strong>
+
+                        <p>
+                            Redes e Arquitetura de Computadores
+                        </p>
+
+                    </div>
+
+
+                    <div class="data-block">
+
+                        <span>
+                            EXPERIENCE
+                        </span>
+
+                        <strong>
+                            SUPPORT
+                        </strong>
+
+                        <p>
+                            Ambiente corporativo
+                        </p>
+
+                    </div>
+
+
+                    <div class="data-block">
+
+                        <span>
+                            BUILDING
+                        </span>
+
+                        <strong>
+                            DEVELOPMENT
+                        </strong>
+
+                        <p>
+                            Python • Flask • Web
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-footer-strip">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <div class="hero-footer-line"></div>
+
+                <span>
+                    SYSTEM READY
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
+
+        <section
+            class="system-section about"
+            id="about"
+        >
+
+            <div class="section-side-label">
+
+                <span>
+                    01
+                </span>
+
+                <span>
+                    INDEX
+                </span>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="about-heading">
+
+                    <span class="system-kicker">
+                        USER PROFILE
+                    </span>
+
+                    <h2>
+                        <span data-i18n="about_title_1">TECNOLOGIA</span>
+                        <span data-i18n="about_title_2">
+                            NA PRÁTICA.
+                        </span>
+                    </h2>
+
+                </div>
+
+
+                <div class="about-copy">
+
+                    <p class="about-lead" data-i18n="about_lead">
+                        Minha relação com tecnologia não ficou só na sala de aula.
+                        A prática começou cedo.
+                    </p>
+
+
+                    <div class="about-columns">
+
+                        <p data-i18n="about_1">
+                            Sou estudante do Ensino Médio Técnico em Redes e
+                            Arquitetura de Computadores no COTEMIG.
+                        </p>
+
+                        <p data-i18n="about_2">
+                            Minha primeira experiência profissional em TI foi
+                            na BHM Diesel, atuando diretamente com suporte
+                            técnico em ambiente corporativo.
+                        </p>
+
+                        <p data-i18n="about_3">
+                            Paralelamente, venho ampliando meus conhecimentos
+                            em programação por meio de projetos acadêmicos
+                            e pessoais.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-panel">
+
+                <div class="about-panel-line">
+
+                    <span>
+                        PRIMARY
+                    </span>
+
+                    <strong>
+                        NETWORKS
+                    </strong>
+
+                </div>
+
+
+                <div class="about-panel-line">
+
+                    <span>
+                        EXPERIENCE
+                    </span>
+
+                    <strong>
+                        SUPPORT
+                    </strong>
+
+                </div>
+
+
+                <div class="about-panel-line">
+
+                    <span>
+                        EXPANDING
+                    </span>
+
+                    <strong>
+                        DEV
+                    </strong>
+
+                </div>
+
+
+                <div class="about-panel-line">
+
+                    <span>
+                        LOCATION
+                    </span>
+
+                    <strong>
+                        BH/MG
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             EXPERIENCE
+        ====================================================== -->
+
+        <section
+            class="system-section experience"
+            id="experience"
+        >
+
+            <div class="section-side-label">
+
+                <span>
+                    02
+                </span>
+
+                <span>
+                    EXPERIENCE
+                </span>
+
+            </div>
+
+
+            <div class="experience-main">
+
+                <div class="experience-head">
+
+                    <div>
+
+                        <span class="system-kicker">
+                            FIELD EXPERIENCE
+                        </span>
+
+                        <h2>
+                            BHM
+                            <span>
+                                DIESEL
+                            </span>
+                        </h2>
+
+                    </div>
+
+
+                    <div class="experience-period">
+
+                        <span>
+                            START
+                        </span>
+
+                        <strong>
+                            09.2025
+                        </strong>
+
+                        <div class="period-line"></div>
+
+                        <span>
+                            END
+                        </span>
+
+                        <strong>
+                            02.2026
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-role">
+
+                    <span>
+                        ROLE
+                    </span>
+
+                    <strong>
+                        SUPORTE TÉCNICO
+                    </strong>
+
+                </div>
+
+
+                <div class="experience-terminal">
+
+                    <div class="terminal-top">
+
+                        <span>
+                            EXPERIENCE.LOG
+                        </span>
+
+                        <span>
+                            08 ENTRIES
+                        </span>
+
+                    </div>
+
+
+                    <div class="terminal-list">
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                001
+                            </span>
+
+                            <p data-i18n="exp_1">
+                                Suporte presencial e remoto aos usuários.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                002
+                            </span>
+
+                            <p data-i18n="exp_2">
+                                Instalação, formatação e configuração do Windows.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                003
+                            </span>
+
+                            <p data-i18n="exp_3">
+                                Preparação de desktops e notebooks.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                004
+                            </span>
+
+                            <p data-i18n="exp_4">
+                                Diagnóstico de hardware e software.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                005
+                            </span>
+
+                            <p data-i18n="exp_5">
+                                Troca de SSD, HD e memória RAM.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                006
+                            </span>
+
+                            <p data-i18n="exp_6">
+                                Administração básica do Active Directory.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                007
+                            </span>
+
+                            <p data-i18n="exp_7">
+                                Outlook, impressoras em rede e endereçamento IP.
+                            </p>
+
+                        </div>
+
+
+                        <div class="terminal-entry">
+
+                            <span>
+                                008
+                            </span>
+
+                            <p data-i18n="exp_8">
+                                Backups e apoio durante incidente de malware.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-tags">
+
+                    <span>
+                        WINDOWS
+                    </span>
+
+                    <span>
+                        ANYDESK
+                    </span>
+
+                    <span>
+                        ACTIVE DIRECTORY
+                    </span>
+
+                    <span>
+                        TCP/IP
+                    </span>
+
+                    <span>
+                        HARDWARE
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             SELECTED WORK
+        ====================================================== -->
+
+        <section
+            class="work"
+            id="work"
+        >
+
+            <div class="work-header">
+
+                <div>
+
+                    <span class="system-kicker">
+                        SELECTED OUTPUT
+                    </span>
+
+                    <h2>
+                        WORK//
+                    </h2>
+
+                </div>
+
+
+                <div class="work-header-note">
+
+                    <span>
+                        02 PROJECTS
+                    </span>
+
+                    <p data-i18n="projects_intro">
+                        Projetos que representam melhor minha evolução até aqui.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 PROJECT 01
+            ================================================== -->
+
+            <article class="work-unit work-unit-primary">
+
+                <div class="work-unit-code">
+
+                    <span>
+                        UNIT_01
+                    </span>
+
+                    <strong>
+                        MED
+                    </strong>
+
+                </div>
+
+
+                <div class="work-unit-copy">
+
+                    <div class="work-unit-title">
+
+                        <span>
+                            ACADEMIC SYSTEM
+                        </span>
+
+                        <h3>
+                            MEDCONFORM (IN DEVELOPMENT)
+                        </h3>
+
+                    </div>
+
+
+                    <p data-i18n="medconform_description">
+                        Sistema acadêmico voltado à validação de OPMEs,
+                        desenvolvido em equipe com separação entre
+                        front-end e back-end, API REST, operações CRUD
+                        e persistência de dados.
+                    </p>
+
+
+                    <div class="work-unit-stack">
+
+                        <span>
+                            PYTHON
+                        </span>
+
+                        <span>
+                            FLASK
+                        </span>
+
+                        <span>
+                            SQLITE
+                        </span>
+
+                        <span>
+                            JS
+                        </span>
+
+                        <span>
+                            REST
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/Jotape-as/MedConform"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="work-link"
+                    >
+                        <span>
+                            OPEN REPOSITORY
+                        </span>
+
+                        <span>
+                            ↗
+                        </span>
+                    </a>
+
+                </div>
+
+
+                <!-- <div class="work-unit-visual">
+
+                    <div class="visual-head">
+
+                        <span>
+                            PREVIEW_01
+                        </span>
+
+                        <span>
+                            MEDCONFORM
+                        </span>
+
+                    </div>
+
+
+                    <div class="visual-image">
+
+                        <img
+                            src="assets/images/MedConform.png"
+                            alt="Projeto MedConform"
+                        >
+
+                    </div>
+
+
+                    <div class="visual-footer">
+
+                        <span>
+                            STATUS
+                        </span>
+
+                        <strong>
+                            IN DEVELOPMENT
+                        </strong>
+
+                    </div>
+
+                </div> -->
+
+
+                <div class="work-learning">
+
+                    <span>
+                        LEARNED
+                    </span>
+
+                    <p data-i18n="medconform_learned">
+                        Organização de back-end,
+                        integração entre camadas
+                        e trabalho em equipe.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PROJECT 02
+            ================================================== -->
+
+            <article class="work-unit work-unit-secondary">
+
+                <div class="work-unit-code">
+
+                    <span>
+                        UNIT_02
+                    </span>
+
+                    <strong>
+                        CAF
+                    </strong>
+
+                </div>
+
+
+                <div class="work-unit-visual">
+
+                    <div class="visual-head">
+
+                        <span>
+                            PREVIEW_02
+                        </span>
+
+                        <span>
+                            NOSSO CAFÉ
+                        </span>
+
+                    </div>
+
+
+                    <div class="visual-image">
+
+                        <img
+                            src="assets/images/Nosso_cafe.png"
+                            alt="Projeto Nosso Café"
+                        >
+
+                    </div>
+
+
+                    <div class="visual-footer">
+
+                        <span>
+                            STATUS
+                        </span>
+
+                        <strong>
+                            LIVE
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="work-unit-copy">
+
+                    <div class="work-unit-title">
+
+                        <span>
+                            WEB PROJECT
+                        </span>
+
+                        <h3>
+                            NOSSO
+                            <span>
+                                CAFÉ
+                            </span>
+                        </h3>
+
+                    </div>
+
+
+                    <p data-i18n="cafe_description">
+                        Website responsivo desenvolvido para uma cafeteria,
+                        com apresentação do estabelecimento, cardápio organizado
+                        e interações em JavaScript.
+                    </p>
+
+
+                    <div class="work-unit-stack">
+
+                        <span>
+                            HTML5
+                        </span>
+
+                        <span>
+                            CSS3
+                        </span>
+
+                        <span>
+                            JAVASCRIPT
+                        </span>
+
+                    </div>
+
+
+                    <div class="work-links">
+
+                        <a
+                            href="https://github.com/Jotape-as/nosso-cafe"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            CODE ↗
+                        </a>
+
+
+                        <a
+                            href="https://nosso-cafe-theta.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LIVE ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="work-learning">
+
+                    <span>
+                        LEARNED
+                    </span>
+
+                    <p data-i18n="cafe_learned">
+                        Responsividade,
+                        estrutura visual e
+                        experiência web.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- =====================================================
+             STACK
+        ====================================================== -->
+
+        <section
+            class="system-section stack"
+            id="stack"
+        >
+
+            <div class="section-side-label">
+
+                <span>
+                    04
+                </span>
+
+                <span>
+                    STACK
+                </span>
+
+            </div>
+
+
+            <div class="stack-main">
+
+                <div class="stack-head">
+
+                    <span class="system-kicker">
+                        TECH INDEX
+                    </span>
+
+                    <h2>
+                        CURRENT
+                        <span>
+                            STACK
+                        </span>
+                    </h2>
+
+                    <p data-i18n="stack_description">
+                        Tecnologias com as quais já tive contato
+                        em estudos, projetos e experiência profissional.
+                    </p>
+
+                </div>
+
+
+                <div class="stack-matrix">
+
+                    <article class="stack-module">
+
+                        <div class="stack-module-id">
+                            SYS
+                        </div>
+
+                        <h3>
+                            SYSTEMS
+                        </h3>
+
+                        <div class="stack-items">
+
+                            <span>
+                                WINDOWS
+                            </span>
+
+                            <span>
+                                ACTIVE DIRECTORY
+                            </span>
+
+                            <span>
+                                OFFICE
+                            </span>
+
+                            <span>
+                                OUTLOOK
+                            </span>
+
+                            <span>
+                                ANYDESK
+                            </span>
+
+                            <span>
+                                HARDWARE
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stack-module">
+
+                        <div class="stack-module-id">
+                            NET
+                        </div>
+
+                        <h3>
+                            NETWORK
+                        </h3>
+
+                        <div class="stack-items">
+
+                            <span>
+                                TCP/IP
+                            </span>
+
+                            <span>
+                                IP ADDRESSING
+                            </span>
+
+                            <span>
+                                NETWORKS
+                            </span>
+
+                            <span>
+                                PACKET TRACER
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stack-module">
+
+                        <div class="stack-module-id">
+                            DEV
+                        </div>
+
+                        <h3>
+                            DEVELOPMENT
+                        </h3>
+
+                        <div class="stack-items">
+
+                            <span>
+                                PYTHON
+                            </span>
+
+                            <span>
+                                FLASK
+                            </span>
+
+                            <span>
+                                HTML5
+                            </span>
+
+                            <span>
+                                CSS3
+                            </span>
+
+                            <span>
+                                JAVASCRIPT
+                            </span>
+
+                            <span>
+                                GIT
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stack-module">
+
+                        <div class="stack-module-id">
+                            DB
+                        </div>
+
+                        <h3>
+                            DATA
+                        </h3>
+
+                        <div class="stack-items">
+
+                            <span>
+                                MYSQL
+                            </span>
+
+                            <span>
+                                SQLITE
+                            </span>
+
+                            <span>
+                                SQL
+                            </span>
+
+                            <span>
+                                MODELING
+                            </span>
+
+                            <span>
+                                CRUD
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             EDUCATION + CERTIFICATIONS
+        ====================================================== -->
+
+        <section class="education-certifications">
+
+            <div class="education-module">
+
+                <div class="module-code">
+
+                    <span>
+                        EDU_01
+                    </span>
+
+                    <strong>
+                        FORMATION
+                    </strong>
+
+                </div>
+
+
+                <div class="education-content">
+
+                    <span class="system-kicker">
+                        COTEMIG
+                    </span>
+
+                    <h2>
+                        REDES &
+                        <span>
+                            ARQUITETURA
+                        </span>
+                    </h2>
+
+
+                    <p data-i18n="education_description">
+                        Ensino Médio Técnico em Redes e Arquitetura
+                        de Computadores.
+                    </p>
+
+
+                    <div class="education-meta">
+
+                        <span>
+                            <span data-i18n="education_start">START / 2024</span>
+                        </span>
+
+                        <span>
+                            <span data-i18n="education_end">END / 2026</span>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="certification-module">
+
+                <div class="module-code">
+
+                    <span>
+                        CERT_01
+                    </span>
+
+                    <strong>
+                        CISCO
+                    </strong>
+
+                </div>
+
+
+                <div class="certification-list">
+
+                    <div>
+
+                        <span>
+                            001
+                        </span>
+
+                        <p data-i18n="cert_python">
+                            Fundamentos do Python 1
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            002
+                        </span>
+
+                        <p data-i18n="cert_cyber">
+                            Introdução à Cibersegurança
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            003
+                        </span>
+
+                        <p data-i18n="cert_hardware">
+                            Fundamentos do Hardware do Computador
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            004
+                        </span>
+
+                        <p data-i18n="cert_packet">
+                            Começando com o Cisco Packet Tracer
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            005
+                        </span>
+
+                        <p data-i18n="cert_digital">
+                            Conscientização Digital
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section
+            class="contact"
+            id="contact"
+        >
+
+            <div class="contact-system-head">
+
+                <span>
+                    CONNECTION PANEL
+                </span>
+
+                <span>
+                    JP//05
+                </span>
+
+            </div>
+
+
+            <div class="contact-title">
+
+                <span class="system-kicker">
+                    OPEN CHANNEL
+                </span>
+
+                <h2>
+                    <span data-i18n="lets_connect_1">LET'S</span>
+                    <span data-i18n="lets_connect_2">
+                        CONNECT.
+                    </span>
+                </h2>
+
+            </div>
+
+
+            <div class="contact-lines">
+
+                <a
+                    href="mailto:azevedosantanaj@gmail.com"
+                    class="connection-line"
+                >
+
+                    <span class="connection-index">
+                        01
+                    </span>
+
+                    <span class="connection-type">
+                        EMAIL
+                    </span>
+
+                    <strong>
+                        azevedosantanaj@gmail.com
+                    </strong>
+
+                    <span class="connection-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="https://github.com/Jotape-as"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="connection-line"
+                >
+
+                    <span class="connection-index">
+                        02
+                    </span>
+
+                    <span class="connection-type">
+                        GITHUB
+                    </span>
+
+                    <strong>
+                        github.com/Jotape-as
+                    </strong>
+
+                    <span class="connection-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/in/jo%C3%A3o-pedro-de-azevedo-santana-3820a2350"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="connection-line"
+                >
+
+                    <span class="connection-index">
+                        03
+                    </span>
+
+                    <span class="connection-type">
+                        LINKEDIN
+                    </span>
+
+                    <strong>
+                        João Pedro Santana
+                    </strong>
+
+                    <span class="connection-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="assets/documents/Curriculo_Joao_Pedro.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="connection-line"
+                >
+
+                    <span class="connection-index">
+                        04
+                    </span>
+
+                    <span class="connection-type">
+                        FILE
+                    </span>
+
+                    <strong>
+                        CURRICULO.PDF
+                    </strong>
+
+                    <span class="connection-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer class="footer">
+
+        <div>
+
+            <span>
+                JP//SYSTEM
+            </span>
+
+            <strong>
+                JOÃO PEDRO SANTANA
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                LOCAL
+            </span>
+
+            <strong>
+                <span data-i18n="footer_location">BELO HORIZONTE / BR</span>
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                VERSION
+            </span>
+
+            <strong>
+                01.<span id="currentYear"></span>
+            </strong>
+
+        </div>
+
+
+        <a href="#home">
+            TOP ↑
+        </a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
